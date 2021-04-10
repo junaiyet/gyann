@@ -1,0 +1,1239 @@
+@media (min-width:320px) and (max-width:575px) {
+    .title p {
+        width: auto;
+    }
+
+    /* -------header-part start--------- */
+
+    header span {
+        display: block;
+        text-align: center;
+
+    }
+
+    header a {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    header p {
+        text-align: center;
+    }
+
+    /* -------header-part end--------- */
+
+    /* -------nav-part start--------- */
+
+    nav ul {
+        text-align: center;
+        background: #2d3e50;
+        padding-top: 10px;
+
+    }
+
+    nav #navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top: 40px;
+        color: #2d3e50;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        margin-top: 0;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    nav .button a:hover {
+        background: #fff;
+        color: #2d3e50;
+    }
+
+    /* -------nav-part end--------- */
+    /* -------banner-part start--------- */
+    #banner-part .banner .overlay h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #banner-part .banner .overlay h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 10px 10px;
+        margin-right: 9px;
+    }
+
+    #banner-part .banner .overlay {
+        padding-top: 30px;
+        padding-bottom: 65px;
+    }
+
+    #banner-bottom .online {
+        transform: translateY(0);
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 11px;
+        height: 11px;
+        background: transparent;
+        border: 1px solid #ffc107;
+        border-radius: 50%;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #ffc107;
+    }
+
+    /* -------banner-part end--------- */
+    /* -------about-part start--------- */
+    #about-part {
+        margin-top: 50px;
+    }
+
+    #about-part .image::after {
+        display: none;
+    }
+
+    #about-part .image::before {
+        display: none;
+    }
+
+    #about-part .about-slider::after {
+        display: none;
+    }
+
+    #about-part .about-slider::before {
+        display: none;
+    }
+
+    #about-part .slick-dots {
+
+        bottom: 18px;
+        left: 75px;
+    }
+
+    #about-part .about-text {
+        margin-top: -5px;
+
+    }
+
+    #about-part .about-text p {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #about-part .about-text a {
+
+        margin-right: 5px;
+        padding: 10px;
+
+    }
+
+    /* -------about-part end--------- */
+
+    /* -------counter-part start--------- */
+
+    #counter-part .item {
+
+        padding-bottom: 10px;
+    }
+
+    #counter-part .item p::after {
+
+        width: 42px;
+
+    }
+
+    #counter-part .item p::before {
+
+        width: 5px;
+
+    }
+
+    #courses-part .slick-dots {
+        position: absolute;
+        bottom: -40px;
+        left: 21%;
+    }
+
+    #courses-part .slick-dots li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    #courses-part .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        background: transparent;
+        border: 2px solid #2d3e50;
+        border-radius: 50%;
+    }
+
+    #courses-part .slick-dots .slick-active button {
+        background: #2d3e50;
+    }
+
+    /* -------counter-part end--------- */
+    /* -------event-part start--------- */
+    #event-part .event-time .item {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    #event-part .event-time .item .left {
+        width: 100%;
+    }
+
+    #event-part .event-time .item .right {
+        width: 100%;
+    }
+
+    #event-part .event-time .item .right h3 {
+
+        margin-top: 10px;
+    }
+
+    #event-part .event-time .item .right p {
+
+        width: 270px;
+
+    }
+
+    #event-part .event-time .item .right .button {
+
+        text-align: center;
+    }
+
+    /* -------event-part end--------- */
+    /* -------testi-part end--------- */
+    #tastimonial-part .testi-part .sape1::before {
+
+        left: 57%;
+
+    }
+
+    #tastimonial-part .testi-part .sape2::before {
+        left: 93px;
+    }
+
+    #tastimonial-part .left-arrow {
+
+        font-size: 10px;
+
+        left: -5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    #tastimonial-part .right-arrow {
+        font-size: 10px;
+        left: -15px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #tastimonial-part .accordion-button h3 {
+        font-size: 14px;
+    }
+
+    /* -------testi-part end--------- */
+
+    /* -------blog-part start--------- */
+
+
+
+
+    #blog-bottom .blog-item .icon {
+        opacity: 1;
+    }
+
+    #blog-bottom .blog-item .overlay h3 {
+        display: none;
+    }
+
+    #blog-bottom .blog-item .overlay p {
+        display: none;
+    }
+
+    #blog-bottom .blog-item .overlay ul {
+        display: none;
+    }
+
+
+    /* -------blog-part end--------- */
+
+
+
+
+
+
+
+
+
+
+
+    #image-part {
+        margin-top: 0;
+    }
+
+
+
+
+
+    /* --------footer-part start */
+
+
+
+    footer .footer-logo .icon {
+        margin-bottom: 5px;
+    }
+
+    footer .footer-logo p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    footer .cont .ulli .one i {
+
+        width: 40px;
+        height: 40px;
+
+        line-height: 40px;
+
+        font-size: 15px;
+
+    }
+
+
+
+    footer .link .list ul li {
+        font-size: 12px;
+    }
+
+    footer .footer-bottom p {
+        font-size: 12px;
+    }
+
+    /* --------footer-part end */
+    /* --------------------- */
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .title p {
+        width: auto;
+    }
+
+    /* -------header-part start--------- */
+
+    header span {
+        display: block;
+        text-align: center;
+
+    }
+
+    header a {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    header p {
+        text-align: center;
+    }
+
+    /* -------header-part end--------- */
+    /* -------nav-part start--------- */
+
+    nav ul {
+        text-align: center;
+        background: #2d3e50;
+        padding-top: 10px;
+
+    }
+
+    nav #navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top: 40px;
+        color: #2d3e50;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        margin-top: 0;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    nav .button a:hover {
+        background: #fff;
+        color: #2d3e50;
+    }
+
+    /* -------nav-part end--------- */
+    /* -------banner-part start--------- */
+    #banner-part .banner .overlay h4 {
+        font-size: 30px;
+
+    }
+
+    #banner-part .banner .overlay h1 {
+
+        font-size: 35px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 10px 10px;
+        margin-right: 9px;
+    }
+
+    #banner-part .banner .overlay {
+        padding-top: 30px;
+        padding-bottom: 65px;
+    }
+
+    #banner-bottom .online {
+        transform: translateY(0);
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 11px;
+        height: 11px;
+        background: transparent;
+        border: 1px solid #ffc107;
+        border-radius: 50%;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #ffc107;
+    }
+
+    #banner-bottom .online h5 {
+        font-size: 15px;
+    }
+
+    #banner-bottom .online a {
+        font-size: 11px;
+    }
+
+    #banner-bottom .online i {
+        left: 69%;
+    }
+
+    /* -------banner-part end--------- */
+    /* -------about-part start--------- */
+    #about-part {
+        margin-top: 50px;
+    }
+
+    #about-part .image::after {
+        display: none;
+    }
+
+    #about-part .image::before {
+        display: none;
+    }
+
+    #about-part .about-slider {
+        margin-top: 0;
+    }
+
+    #about-part .about-slider::after {
+        display: none;
+    }
+
+    #about-part .about-slider::before {
+        display: none;
+    }
+
+    #about-part .slick-dots {
+
+        bottom: 13%;
+        left: 30%;
+    }
+
+    #about-part .about-text {
+        margin-top: -5px;
+
+    }
+
+    #about-part .about-text p {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #about-part .about-text a {
+
+        margin-right: 5px;
+        padding: 10px;
+
+    }
+
+    /* -------about-part end--------- */
+
+    /* -------counter-part start--------- */
+
+    #counter-part .item {
+
+        padding-bottom: 10px;
+    }
+
+    #counter-part .item p::after {
+
+        width: 42px;
+
+    }
+
+    #counter-part .item p::before {
+
+        width: 5px;
+
+    }
+
+    #courses-part .slick-dots {
+        position: absolute;
+        bottom: -40px;
+        left: 33%;
+    }
+
+    #courses-part .slick-dots li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    #courses-part .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        background: transparent;
+        border: 2px solid #2d3e50;
+        border-radius: 50%;
+    }
+
+    #courses-part .slick-dots .slick-active button {
+        background: #2d3e50;
+    }
+
+    /* -------counter-part end--------- */
+    /* -------event-part start--------- */
+    #event-part .event-time .item {
+        margin-top: 20px;
+
+    }
+
+    #event-part .event-time .item .right h3 {
+        font-size: 18px;
+    }
+
+    #event-part .event-time .item .right p {
+        font-size: 13px;
+        width: 270px;
+    }
+
+    #event-part .event-time .item .right .button {
+        text-align: center;
+    }
+
+    #event-part .event-time .item .right span {
+        margin-right: 6px;
+    }
+
+    #event-part .event-time .item .right span i {
+        font-size: 15px;
+    }
+
+    /* -------event-part end--------- */
+    /* -------testi-part start--------- */
+    #tastimonial-part .testi-part .sape1::before {
+
+        left: 57%;
+
+    }
+
+    #tastimonial-part .testi-part .sape2::before {
+        left: 93px;
+    }
+
+    #tastimonial-part .left-arrow {
+
+        font-size: 10px;
+
+        left: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    #tastimonial-part .right-arrow {
+        font-size: 10px;
+        left: -5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #tastimonial-part .accordion-button h3 {
+        font-size: 14px;
+    }
+
+    #tastimonial-part .testi-part .sape1::after {
+        display: none;
+    }
+
+    #tastimonial-part .testi-part .sape1::before {
+        display: none;
+    }
+
+    #tastimonial-part .testi-part .sape2::after {
+        display: none;
+    }
+
+    #tastimonial-part .testi-part .sape2::before {
+        display: none;
+    }
+
+    #tastimonial-part .text-slider .text p {
+        font-size: 14px;
+        margin-top: -50px;
+    }
+
+    /* -------testi-part end--------- */
+
+
+
+
+    #teacher-part {
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* -------blog-part start--------- */
+
+    #blog-bottom .blog-item .icon {
+        opacity: 1;
+    }
+
+    #blog-bottom .blog-item .overlay h3 {
+        display: none;
+    }
+
+    #blog-bottom .blog-item .overlay p {
+        display: none;
+    }
+
+    #blog-bottom .blog-item .overlay ul {
+        display: none;
+    }
+
+    /* -------blog-part end--------- */
+    /* -------image-part end--------- */
+
+    #image-part {
+        margin-top: 0;
+    }
+
+    #image-part .item .overlay h3 {
+        margin-top:1px;
+    }
+
+    #image-part .item .overlay .ida {
+        margin-top: 0;
+    }
+
+    /* -------image-part end--------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* -------footer-part start--------- */
+
+
+    footer .footer-logo .icon {
+        margin-bottom: 5px;
+    }
+
+    footer .footer-logo p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    footer .cont .ulli .one i {
+
+        width: 40px;
+        height: 40px;
+
+        line-height: 40px;
+
+        font-size: 15px;
+
+    }
+
+
+
+    footer .link .list ul li {
+        font-size: 16px;
+    }
+    footer .footer-bottom p{
+        font-size: 13px;
+    }
+    /* -------footer-part end--------- */
+
+
+    /* --------------------- */
+}
+@media (min-width:768px) and (max-width:991px) {
+ 
+
+    /* -------header-part start--------- */
+
+    header p {
+        margin-top: -23px;
+    }
+
+    /* -------header-part end--------- */
+    /* -------nav-part start--------- */
+
+    nav ul {
+        text-align: center;
+        background: #2d3e50;
+        padding-top: 10px;
+
+    }
+
+    nav #navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top: 40px;
+        color: #2d3e50;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        margin-top: 0;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    nav .button a:hover {
+        background: #fff;
+        color: #2d3e50;
+    }
+
+    /* -------nav-part end--------- */
+    /* -------banner-part start--------- */
+    #banner-part .banner .overlay h4 {
+        font-size: 30px;
+
+    }
+
+    #banner-part .banner .overlay h1 {
+
+        font-size: 35px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 10px 10px;
+        margin-right: 9px;
+    }
+
+    #banner-part .banner .overlay {
+        padding-top: 30px;
+        padding-bottom: 65px;
+    }
+
+    #banner-bottom .online {
+        transform: translateY(0);
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 11px;
+        height: 11px;
+        background: transparent;
+        border: 1px solid #ffc107;
+        border-radius: 50%;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #ffc107;
+    }
+
+    #banner-bottom .online h5 {
+        font-size: 15px;
+    }
+
+    #banner-bottom .online a {
+        font-size: 11px;
+    }
+
+    #banner-bottom .online i {
+        left: 69%;
+    }
+
+    /* -------banner-part end--------- */
+    /* -------about-part start--------- */
+    #about-part {
+        margin-top: 50px;
+    }
+
+    #about-part .image::after {
+        top: 60px;
+    }
+
+    #about-part .image::before {
+        top: 60px;
+    }
+
+    #about-part .about-slider {
+        margin-top: 0;
+    }
+
+    #about-part .about-slider::after {
+        bottom: 60px;
+    }
+
+    #about-part .about-slider::before {
+        bottom: 60px;
+       
+    }
+
+    #about-part .slick-dots {
+
+        bottom: 13%;
+        left: 35%;
+    }
+
+    #about-part .about-text {
+        margin-top: -5px;
+
+    }
+
+    #about-part .about-text p {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #about-part .about-text a {
+
+        margin-right: 5px;
+        padding: 10px;
+
+    }
+
+    /* -------about-part end--------- */
+
+    /* -------counter-part start--------- */
+
+    #counter-part .item {
+
+        padding-bottom: 10px;
+    }
+
+    #counter-part .item p::after {
+
+        width: 42px;
+
+    }
+
+    #counter-part .item p::before {
+
+        width: 5px;
+
+    }
+    #counter-part .item h2 {
+        font-size: 35px;
+    }
+    #counter-part .item p {
+        font-size: 20px;
+       
+    }
+/* counter-part end */
+/* courses-part start */
+#courses-part .courses-slider .item .img .overlay:hover{
+    opacity: 1;
+}
+#courses-part .slick-dots {
+
+	left: 48%;
+	transform: translate(-50%);
+}
+
+    #courses-part .slick-dots li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    #courses-part .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        background: transparent;
+        border: 2px solid #2d3e50;
+        border-radius: 50%;
+    }
+
+    #courses-part .slick-dots .slick-active button {
+        background: #2d3e50;
+    }
+
+    /* -------courses-part end--------- */
+    /* -------event-part start--------- */
+    #event-part  .one{
+        display: flex;
+        flex-direction: row;    
+    }
+    #event-part .event-time .item {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    #event-part .event-time .item .left{
+        width: 100%;
+    }
+    #event-part .event-time .item .right{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+ 
+    #event-part .event-time .item .right h3 {
+        font-size: 22px;
+    }
+
+    #event-part .event-time .item .right p {
+        font-size: 14px;
+        width: 289px;
+        margin-bottom: 20px;
+    }
+    #event-part .event-time .item .right span {
+
+        font-size: 13px;
+    ;
+    }
+    #event-part .event-time .item .right .button {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #event-part .event-time .item .right span {
+        margin-right: 6px;
+    }
+
+    #event-part .event-time .item .right span i {
+        font-size: 15px;
+    }
+
+    /* -------event-part end--------- */
+    /* -------testi-part start--------- */
+    #tastimonial-part .testi-part .sape1::after {
+        top: 12%;
+        left: 16%;
+        width: 120px;
+    }
+    #tastimonial-part .testi-part .sape1::before {
+        top: 13%;
+        left: 61%;
+    }
+
+    #tastimonial-part .testi-part .sape2::after {
+        bottom: 12%;
+        right: 15%;
+        width: 120px;
+
+    }
+
+    #tastimonial-part .testi-part .sape2::before {
+        bottom: 12%;
+        left: 39%;
+    }
+    #tastimonial-part .left-arrow {
+
+        font-size: 10px;
+
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+
+    }
+
+    #tastimonial-part .right-arrow {
+        font-size: 10px;
+        left: -5px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #tastimonial-part .accordion-button h3 {
+        font-size: 35px;
+    }
+
+
+
+
+    #tastimonial-part .text-slider .text p {
+        font-size: 14px;
+        margin-top: -40px;
+    }
+
+    /* -------testi-part end--------- */
+    /* -------event-part start--------- */
+
+    /* #event-part .event-time .item {
+        margin-top: 20px;
+
+    }
+
+    #event-part .event-time .item .right h3 {
+        font-size: 18px;
+    */
+    /* -------event-part end--------- */
+
+
+
+
+    #teacher-part {
+        margin-top: 50px;
+    }
+
+
+
+    #teacher-part .teacher-item .item .icon {
+
+        left: 85%;
+   ;
+    }
+
+
+
+
+
+
+
+    /* -------blog-part start--------- */
+
+    #blog-bottom .blog-item .icon {
+        opacity: 1;
+    }
+
+    #blog-bottom .blog-item .overlay h3 {
+        display: none;
+    }
+
+    #blog-bottom .blog-item .overlay p {
+        display: none;
+    }
+
+    #blog-bottom .blog-item .overlay ul {
+        display: none;
+    }
+    #blog-bottom .blog-item{
+        transform: translateY(-50%);
+    }
+    /* -------blog-part end--------- */
+    /* -------image-part end--------- */
+
+    #image-part {
+        margin-top: 0;
+    }
+
+    #image-part .item .overlay h3 {
+        margin-top: -50px;
+    }
+
+    #image-part .item .overlay .ida {
+        margin-top: -60px;
+    }
+
+    /* -------image-part end--------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* -------footer-part start--------- */
+
+    footer .hed {
+
+        margin-top: 20px;
+    }
+    footer .footer-logo .icon {
+        margin-bottom: 5px;
+    }
+
+    footer .footer-logo p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    footer .cont .ulli .one i {
+
+        width: 40px;
+        height: 40px;
+
+        line-height: 40px;
+
+        font-size: 14px;
+
+    }
+
+
+
+    footer .link .list ul li {
+        font-size: 15px;
+    }
+    footer .footer-bottom p{
+        font-size: 13px;
+    }
+    /* -------footer-part end--------- */
+
+
+    /* --------------------- */
+}
